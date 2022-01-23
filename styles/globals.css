@@ -141,3 +141,9 @@ a {
   position: absolute;
   top: 0px;
 }
+
+.MuiPaper-root {
+  width: 300px;
+  position: absolute;
+  top: 0;
+}
