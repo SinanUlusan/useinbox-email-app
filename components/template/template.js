@@ -58,7 +58,7 @@ export default function Template() {
         console.log("response", response);
       })
       .catch(function (error) {
-        setErrorMessage(error.response.statusText);
+        setErrorMessage("error");
         setLoading(false);
         setError(true);
         console.log("error", error);
